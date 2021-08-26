@@ -5,7 +5,7 @@ import asyncio
 from userge import userge
 
 
-@userge.on_cmd("brain$", about={'header': "Dump your Brain into Trash"})
+@userge.on_cmd("wahack$", about={'header': "WhatsApp prank by @Deonnn"})
 async def brain_func(message):
     animation_chars = [
 

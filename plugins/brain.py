@@ -43,6 +43,6 @@ async def brain_func(message):
 
         ]
 
-    for i in range(14):
+    for i in range(15):
         await asyncio.sleep(0.3)
-        await message.edit(animation_chars[i % 14])
+        await message.edit(animation_chars[i % 15])

@@ -1,4 +1,4 @@
-# by Alone
+# by Deonnn
 
 import asyncio
 

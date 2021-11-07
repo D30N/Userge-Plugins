@@ -15,4 +15,4 @@ async def lmg_(message: Message):
         return
     query_encoded = query.replace(" ", "+")
     lmg_url = f"http://google.com/search?q={query_encoded}"
-    await message.edit(f"**Okey, let me Google that for you...**\n👉 Click here: [{query}]({lmg_url})")
+    await message.edit(f"**Okey, let me Google that for you...**\n👉 Click here: [{query}]({lmg_url})\n`Thank me later 😉`")

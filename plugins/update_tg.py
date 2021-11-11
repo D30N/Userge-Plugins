@@ -15,4 +15,4 @@ async def uptg_(message: Message):
         return
     query_encoded = query.replace(" ", "+")
     lmg_url = f"tg://need_update_for_some_feature/"
-    await message.edit(f"Hmmm.../n[UPDATE YOUR APP]({lmg_url})")
+    await message.edit(f"Hmmm...\n[UPDATE YOUR APP]({lmg_url})")

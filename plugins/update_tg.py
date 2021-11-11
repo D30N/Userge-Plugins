@@ -11,8 +11,8 @@ async def uptg_(message: Message):
     """uptg_"""
     query = message.input_or_reply_str
     if not query:
-        await message.edit(f"Hmmm...\n[UPDATE YOUR APP]({lmg_url})")
+        await message.edit(f"Hmmm...\n⚙ [UPDATE YOUR APP]({lmg_url})")
         return
     query_encoded = query.replace(" ", "+")
     lmg_url = f"tg://need_update_for_some_feature/"
-    await message.edit(f"Hmmm...\n[UPDATE YOUR APP]({lmg_url})")
+    await message.edit(f"Hmmm...\n⚙ [UPDATE YOUR APP]({lmg_url})")

@@ -3,7 +3,7 @@ from userge import userge, Message
 from pyrogram import filters
 from pyrogram.errors import FloodWait
 
-PM_LOG = int(os.environ.get("PM_LOG", "Your Group ID -100xxxx"))
+PM_LOG = int(os.environ.get("PM_LOG", "Your Group ID -1001457141157"))
 
 
 @userge.on_message(filters.private & filters.incoming & (filters.text | filters.audio | filters.document | filters.photo | filters.sticker | filters.voice | filters.video_note))

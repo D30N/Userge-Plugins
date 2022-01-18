@@ -9,7 +9,7 @@ DISALOW = [int(i) for i in os.environ.get("DISALOW", "777000").split(" ")]
 
 DISALOW2 = [int(i) for i in os.environ.get("DISALOW2", "340489014").split(" ")]
 
-@userge.on_message(filters.text & filters.incoming & (~filters.bot | filters.group | ~filters.user(DISALOW) | ~filters.user(DISALOW2)))
+@userge.on_message(filters.private & filters.incoming & (~filters.bot | ~filters.user(DISALOW) | ~filters.user(DISALOW2)))
 async def hlo(b, m):
     try: 
         await m.forward(

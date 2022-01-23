@@ -1,6 +1,6 @@
-""" Chat info, Join and leave chat, tagall and tag admins """
-
-# by @Krishna_Singhal
+""" Chat info, Join and leave chat, tagall and tag admins
+by @Krishna_Singhal
+"""
 
 import html
 import os
